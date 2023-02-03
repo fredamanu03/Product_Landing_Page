@@ -156,7 +156,7 @@ video {
 
 #pricing > div {
   border: 1px solid black;
-  width: 313px;
+  width: 413px;
   height: 311px;
   text-align: center;
 }
@@ -189,14 +189,6 @@ video {
   width: 102px;
 }
 
-@media screen and (max-width: 780px) {
-  #pricing {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-}
-
 footer {
   margin: 30px 10px 0;
   height: 80px;
@@ -215,4 +207,17 @@ footer p {
   color: #444444;
   margin-top: 5px;
   font-size: 14.4px;
+}
+
+@media screen and (max-width: 780px) {
+  #pricing {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  #pricing > div {
+    width: 313px;
+  }
 }
